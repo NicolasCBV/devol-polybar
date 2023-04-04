@@ -10,4 +10,4 @@ I really expect that you like it. Therefore, if you wish to see an example of th
 - Font: Hack Regular Nerd Font.
 
 ## Installation
-Put this folder in '~/.config/' and install the fonts were is in folder called 'fonts'.
+Put this folder in '~/.config/' and copy and paste the files on "fonts" in /usr/share/fonts/.
