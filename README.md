@@ -8,6 +8,7 @@ I really expect that you like it. Therefore, if you wish to see an example of th
 
 ## Dependencies
 - Font: Hack Regular Nerd Font.
+- Package: pacman-contrib
 
 ## Installation
-Put this folder in '~/.config/' and copy and paste the files on "fonts" in /usr/share/fonts/.
+Put this folder in '~/.config/' and copy and paste the files on "fonts" in /usr/share/fonts/. After that, install the pacman-contrib package
