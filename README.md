@@ -4,7 +4,8 @@ This is my first polybar theme, it was designed for my personal usage, containin
 
 I really expect that you like it. Therefore, if you wish to see an example of this theme being used, check below:
 
-<img src="./example.png" alt="example image">
+<img src="./assets/curvedbar.png" alt="Curvedbar image example">
+<img src="./assets/squarebar.png" alt="Squarebar image example">
 
 ## Dependencies
 - Font: Hack Regular Nerd Font.
