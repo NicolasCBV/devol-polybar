@@ -11,4 +11,7 @@ I really expect that you like it. Therefore, if you wish to see an example of th
 - Package: pacman-contrib
 
 ## Installation
-Put this folder in '~/.config/' and copy and paste the files on "fonts" in /usr/share/fonts/. After that, install the pacman-contrib package
+To install devol-polybar just execute build.sh script:
+```
+./build.sh 
+```
