@@ -5,6 +5,7 @@ This is my first polybar theme, it was designed for my personal usage, containin
 I really expect that you like it. Therefore, if you wish to see an example of this theme being used, check below:
 
 <img src="./assets/curvedbar.png" alt="Curvedbar image example">
+<img src="./assets/neutral_curvedbar.png" alt="Neutral curvedbar image example">
 <img src="./assets/squarebar.png" alt="Squarebar image example">
 
 ## Dependencies
