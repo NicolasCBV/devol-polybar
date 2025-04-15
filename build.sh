@@ -11,11 +11,12 @@ ERROR_FLAG="[${RED_COLOR}ERROR${RESET_COLOR}]"
 echo -e "${INFO_FLAG} Available bars: "
 echo -e "  1. Squarebar"
 echo -e "  2. Curvedbar"
-echo -e "  3. Neutral curvedbar"
+echo -e "  3. Neutral full covered"
+echo -e "  4. Neutral curvedbar"
 read -p "Type the number of your bar: " type
 
-if [[ $type != "1" && $type != "2" && $type != "3" ]]; then
-	echo -e "${ERROR_FLAG} Only numbers 1 and 2 are available"
+if [[ $type != "1" && $type != "2" && $type != "3" && $type != "4" ]]; then
+	echo -e "${ERROR_FLAG} Only numbers 1, 2, 3, and 2 are available"
 	exit 1
 fi
 
@@ -23,7 +24,8 @@ barpath=""
 
 if [ $type == "1" ]; then barpath="/bars/squarebar"; fi
 if [ $type == "2" ]; then barpath="/bars/curvedbar"; fi
-if [ $type == "3" ]; then barpath="/bars/neutral_curvedbar"; fi
+if [ $type == "3" ]; then barpath="/bars/neutral_full_covered"; fi
+if [ $type == "4" ]; then barpath="/bars/neutral_curvedbar"; fi
 
 tmp=$(mktemp -d)
 
